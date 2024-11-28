@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbe1f0;
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 150vh;
+  }
+  
+  .form-container {
+    background-color: #eeeaf9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .create-account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3d3232;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #00aaff;
+  }
+  
+  button {
+    background-color: #1cba6b;
+    color: rgb(246, 241, 241);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00994d;
+  }
+  
+  input[type="range"] {
+    width: calc(100% - 40px);
+  }
+  
+  #income-value {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  

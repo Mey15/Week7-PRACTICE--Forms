@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Coding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form class="create-account-form">
+      <h1>CADT Coding Club Recruitement 2024</h1>
+      
+      <div class="form-group">
+        <label for="name">Name <span>*</span></label>
+                <input type="text" id="name" name="name" placeholder="Your answer" required>
+       </div>
+
+            <div class="form-group">
+                <label>Are you studying in Generation 10 at CADT? <span>*</span></label>
+                <div class="radio-group">
+                    <input type="radio" id="yes-gen10" name="gen10" value="Yes" required>
+                    <label for="yes-gen10">Yes</label>
+                    <input type="radio" id="no-gen10" name="gen10" value="No">
+                    <label for="no-gen10">No</label>
+                </div>
+            </div>
+
+    
+            <div class="form-group">
+                <label>Specialize <span>*</span></label>
+                <div class="radio-group">
+                    <input type="radio" id="software" name="specialize" value="Software Engineering" required>
+                    <label for="software">Software Engineering</label>
+                    <input type="radio" id="data" name="specialize" value="Data Science">
+                    <label for="data">Data Science</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Are you available on weekdays from 4:30 PM to 6:00 PM? <span>*</span></label>
+                <div class="radio-group">
+                    <input type="radio" id="yes-available" name="available" value="Yes" required>
+                    <label for="yes-available">Yes</label>
+                    <input type="radio" id="no-available" name="available" value="No">
+                    <label for="no-available">No</label>
+                </div>
+      
+                <div class="form-group">
+                    <label>Are you available on weekends from 1:00 PM to 3:00 PM? <span>*</span></label>
+                    <div class="radio-group">
+                        <input type="radio" id="yes-available" name="available" value="Yes" required>
+                        <label for="yes-available">Yes</label>
+                        <input type="radio" id="no-available" name="available" value="No">
+                        <label for="no-available">No</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Telegram) <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your answer" required>
+                    </div>
+        
+                    <!-- Participation in Similar Activities -->
+                    <div class="form-group">
+                        <label>Have you participated in similar activities before? <span>*</span></label>
+                        <div class="radio-group">
+                            <input type="radio" id="yes-participated" name="participated" value="Yes" required>
+                            <label for="yes-participated">Yes</label>
+                            <input type="radio" id="no-participated" name="participated" value="No">
+                            <label for="no-participated">No</label>
+                        </div>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="languages">List the programming languages you have a basic understanding of <span>*</span></label>
+                        <input type="text" id="languages" name="languages" placeholder="Your answer" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Are you able to commit to regular attendance? <span>*</span></label>
+                        <div class="radio-group">
+                            <input type="radio" id="yes-attendance" name="attendance" value="Yes" required>
+                            <label for="yes-attendance">Yes</label>
+                            <input type="radio" id="no-attendance" name="attendance" value="No">
+                            <label for="no-attendance">No</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="languages">Why do you want to join the coding club? What are your expectations? <span>*</span></label>
+                        <input type="text" id="languages" name="languages" placeholder="Your answer" required>
+                    </div>
+     
+      <button type="submit">Submit</button>
+      <button type="reset">Clear form</button>
+    </form>
+  </div>
+</body>
+</html>

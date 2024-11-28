@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form class="create-account-form">
+      <h1>Create Account</h1>
+      
+      <div class="form-group">
+        <input type="text" placeholder="First name *" required>
+        <input type="text" placeholder="Last name *" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="Email *" required>
+        <input type="password" placeholder="Password *" required>
+        <input type="password" placeholder="Confirm Password *" required>
+      </div>
+
+
+    
+      <label>Gender:</label>
+      <div class="radio-group">
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+      </div>
+
+      <label>Hobbies:</label>
+      <div class="checkbox-group">
+          <input type="checkbox" id="music" name="hobbies" value="Music">
+          <label for="music">Music</label>
+          <input type="checkbox" id="sports" name="hobbies" value="Sports">
+          <label for="sports">Sports</label>
+          <input type="checkbox" id="travel" name="hobbies" value="Travel">
+          <label for="travel">Travel</label>
+          <input type="checkbox" id="movies" name="hobbies" value="Movies">
+          <label for="movies">Movies</label>
+      </div>
+      
+
+      <div class="form-group">
+        <label for="source-income">Source of Income:</label>
+        <select id="source-income" name="source-income">
+          <option value="employed">Employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="student">Student</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="income">Income:</label>
+        <input type="range" id="income" name="income" min="0" max="100000" step="1000" value="20000" oninput="document.getElementById('income-value').textContent = this.value">
+        <span id="income-value">20k</span>
+      </div>
+
+      <div class="form-group">
+        <label>Upload Profile Picture:</label>
+        <input type="file">
+      </div>
+
+      <div class="form-group">
+        <label>Age:</label>
+        <input type="number" min="1" max="120" value="18">
+      </div>
+
+      <div class="form-group">
+        <textarea placeholder="Bio"></textarea>
+      </div>
+
+      <button type="submit">Create</button>
+    </form>
+  </div>
+</body>
+</html>

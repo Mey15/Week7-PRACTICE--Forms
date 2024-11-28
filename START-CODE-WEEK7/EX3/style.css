@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cbe1f0;
+    margin: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 190vh;
+  }
+  
+  .form-container {
+    background: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+label span {
+    color: red;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+
+  .create-account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+
+    font-size: 14px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    width: auto;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #00aaff;
+  }
+  
+  button {
+    background-color: #4c34e8;
+    color: rgb(246, 241, 241);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1b4cd1;
+  }
+  
+  button {
+    background-color: hsl(237, 85%, 60%);
+    color: rgb(246, 241, 241);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button[type="reset"] {
+    background-color: #d9505e;
+}
+
+button[type="reset"]:hover {
+    background-color: #edb3bb;
+}
